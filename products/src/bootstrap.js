@@ -12,7 +12,7 @@ const mount = (el) => {
 }
 
 if (process.env.NODE_ENV === "development") {
-  el = document.querySelector("#dev-products");
+  let el = document.querySelector("#dev-products");
   if (el) {
     mount(el);
   }
